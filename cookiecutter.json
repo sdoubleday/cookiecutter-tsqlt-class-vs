@@ -1,10 +1,7 @@
 {
-    "schema1":  "Creates folder for tests and test schema",
-    "s2": "",
-    "s3": "",
-    "s4": "",
-    "s5": "",
-    "s6": "",
-    "schema_name":  "{{cookiecutter.schema1}}{{cookiecutter.s2}}{{cookiecutter.s3}}{{cookiecutter.s4}}{{cookiecutter.s5}}{{cookiecutter.s6}}",
+    "schema_under_test": "Creates folder for tests and test schema",
+    "delimiter": "__",
+    "object_under_test": "Default class name: schema__object",
+    "test_schema_name":  "{{cookiecutter.schema_under_test}}{{cookiecutter.delimiter}}{{cookiecutter.object_under_test}}",
     "Instructions": "Cancel the 'Save changes to the following items?' prompt."
 }
